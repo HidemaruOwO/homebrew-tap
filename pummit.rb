@@ -5,20 +5,20 @@
 class Pummit < Formula
   desc ""
   homepage ""
-  version "2.0.0"
+  version "1.3.0"
 
   on_macos do
     on_intel do
-      url "https://github.com/HidemaruOwO/pummit/releases/download/v2.0.0/pummit_2.0.0_darwin_amd64.tar.gz"
-      sha256 "cbec417c49f789ed442b5976b581dc907e4655ee27699f4695d42f0114e92f10"
+      url "https://github.com/HidemaruOwO/pummit/releases/download/v1.3.0/pummit_1.3.0_darwin_amd64.tar.gz"
+      sha256 "ab13e065e908baf52eae8ab66c55822ddefbea0d9b1a128c8a76e4bec5a8bc04"
 
       def install
         bin.install "pummit"
       end
     end
     on_arm do
-      url "https://github.com/HidemaruOwO/pummit/releases/download/v2.0.0/pummit_2.0.0_darwin_arm64.tar.gz"
-      sha256 "bce26c71b9d001e6423bd8c81f1f0db3ea5cb9dc9696bc68b9ae101d8bb30969"
+      url "https://github.com/HidemaruOwO/pummit/releases/download/v1.3.0/pummit_1.3.0_darwin_arm64.tar.gz"
+      sha256 "7c1f70666539ff7e55b82c5b8fc0f41504930db1b9f9f913fdef4cf65e5d63b1"
 
       def install
         bin.install "pummit"
@@ -29,8 +29,8 @@ class Pummit < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/HidemaruOwO/pummit/releases/download/v2.0.0/pummit_2.0.0_linux_amd64.tar.gz"
-        sha256 "5c96af60d412d74bc46d68ca8afeaaee6c9cdf75843390bf4d3504228660296d"
+        url "https://github.com/HidemaruOwO/pummit/releases/download/v1.3.0/pummit_1.3.0_linux_amd64.tar.gz"
+        sha256 "51f9a7d97c460ba1fa5aadb7067e9f1adb53d2dd95fec53c2454a26ecc2e683c"
 
         def install
           bin.install "pummit"
@@ -39,8 +39,8 @@ class Pummit < Formula
     end
     on_arm do
       if !Hardware::CPU.is_64_bit?
-        url "https://github.com/HidemaruOwO/pummit/releases/download/v2.0.0/pummit_2.0.0_linux_armv6.tar.gz"
-        sha256 "58414a1d559fec75443b3dc63aa978a8b5758d751ff7826099089dcca3f080c9"
+        url "https://github.com/HidemaruOwO/pummit/releases/download/v1.3.0/pummit_1.3.0_linux_armv6.tar.gz"
+        sha256 "ea3ea043877a95e5707ca05fc2eb80cc84f5583247a3a2e4d36d859d5d476442"
 
         def install
           bin.install "pummit"
@@ -49,8 +49,8 @@ class Pummit < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/HidemaruOwO/pummit/releases/download/v2.0.0/pummit_2.0.0_linux_arm64.tar.gz"
-        sha256 "d3b668b428d39a911d8238970beb6d9c0a24e0004383c1232d69f8664fc56a3f"
+        url "https://github.com/HidemaruOwO/pummit/releases/download/v1.3.0/pummit_1.3.0_linux_arm64.tar.gz"
+        sha256 "57e5be0e95b3521775d110fb89f55b17a1c34b40d5ad77827c44c9658db7215b"
 
         def install
           bin.install "pummit"
